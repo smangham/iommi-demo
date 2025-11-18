@@ -2,11 +2,10 @@
 <html class="no-js" lang="en" data-content_root="../../../">
   <head><meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../../../genindex.html"><link rel="search" title="Search" href="../../../search.html"><link rel="next" title="iommi_demo.core.asgi" href="asgi/index.html"><link rel="prev" title="iommi_demo.app.views" href="../app/views/index.html">
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../../../genindex.html"><link rel="search" title="Search" href="../../../search.html">
 
     <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
-        <title>iommi_demo.core - iommi-demo v0.1.0</title>
+        <title>iommi_demo.app.context_processors - iommi-demo v0.1.0</title>
       <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?v=580074bf" />
     <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
@@ -178,7 +177,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
         <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
       </label>
     </div>
@@ -196,42 +195,42 @@
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <ul class="current">
-<li class="toctree-l1 current has-children"><a class="reference internal" href="../../index.html">API Reference</a><input aria-label="Toggle navigation of API Reference" checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../../test_all/index.html">test_all</a></li>
-<li class="toctree-l2 current has-children"><a class="reference internal" href="../index.html">iommi_demo</a><input aria-label="Toggle navigation of iommi_demo" checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
-<li class="toctree-l3 has-children"><a class="reference internal" href="../app/index.html">iommi_demo.app</a><input aria-label="Toggle navigation of iommi_demo.app" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l4"><a class="reference internal" href="../app/adapter/index.html">iommi_demo.app.adapter</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../app/admin/index.html">iommi_demo.app.admin</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../app/apps/index.html">iommi_demo.app.apps</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../app/context_processors/index.html">iommi_demo.app.context_processors</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../app/iommi_admin/index.html">iommi_demo.app.iommi_admin</a></li>
-<li class="toctree-l4 has-children"><a class="reference internal" href="../app/main_menu/index.html">iommi_demo.app.main_menu</a><input aria-label="Toggle navigation of iommi_demo.app.main_menu" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l5"><a class="reference internal" href="../app/main_menu/owners/index.html">iommi_demo.app.main_menu.owners</a></li>
+  <ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../autoapi/index.html">API Reference</a><input aria-label="Toggle navigation of API Reference" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../autoapi/test_all/index.html">test_all</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../autoapi/iommi_demo/index.html">iommi_demo</a><input aria-label="Toggle navigation of iommi_demo" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../../autoapi/iommi_demo/app/index.html">iommi_demo.app</a><input aria-label="Toggle navigation of iommi_demo.app" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/iommi_demo/app/adapter/index.html">iommi_demo.app.adapter</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/iommi_demo/app/admin/index.html">iommi_demo.app.admin</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/iommi_demo/app/apps/index.html">iommi_demo.app.apps</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/iommi_demo/app/context_processors/index.html">iommi_demo.app.context_processors</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/iommi_demo/app/iommi_admin/index.html">iommi_demo.app.iommi_admin</a></li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="../../../autoapi/iommi_demo/app/main_menu/index.html">iommi_demo.app.main_menu</a><input aria-label="Toggle navigation of iommi_demo.app.main_menu" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../autoapi/iommi_demo/app/main_menu/owners/index.html">iommi_demo.app.main_menu.owners</a></li>
 </ul>
 </li>
-<li class="toctree-l4 has-children"><a class="reference internal" href="../app/management/index.html">iommi_demo.app.management</a><input aria-label="Toggle navigation of iommi_demo.app.management" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l5 has-children"><a class="reference internal" href="../app/management/commands/index.html">iommi_demo.app.management.commands</a><input aria-label="Toggle navigation of iommi_demo.app.management.commands" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l6"><a class="reference internal" href="../app/management/commands/makestaff/index.html">iommi_demo.app.management.commands.makestaff</a></li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="../../../autoapi/iommi_demo/app/management/index.html">iommi_demo.app.management</a><input aria-label="Toggle navigation of iommi_demo.app.management" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5 has-children"><a class="reference internal" href="../../../autoapi/iommi_demo/app/management/commands/index.html">iommi_demo.app.management.commands</a><input aria-label="Toggle navigation of iommi_demo.app.management.commands" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../autoapi/iommi_demo/app/management/commands/makestaff/index.html">iommi_demo.app.management.commands.makestaff</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="../app/models/index.html">iommi_demo.app.models</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../app/pages/index.html">iommi_demo.app.pages</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../app/rules/index.html">iommi_demo.app.rules</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../app/tests/index.html">iommi_demo.app.tests</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../app/views/index.html">iommi_demo.app.views</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/iommi_demo/app/models/index.html">iommi_demo.app.models</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/iommi_demo/app/pages/index.html">iommi_demo.app.pages</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/iommi_demo/app/rules/index.html">iommi_demo.app.rules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/iommi_demo/app/tests/index.html">iommi_demo.app.tests</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/iommi_demo/app/views/index.html">iommi_demo.app.views</a></li>
 </ul>
 </li>
-<li class="toctree-l3 current has-children current-page"><a class="current reference internal" href="#">iommi_demo.core</a><input aria-label="Toggle navigation of iommi_demo.core" checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
-<li class="toctree-l4"><a class="reference internal" href="asgi/index.html">iommi_demo.core.asgi</a></li>
-<li class="toctree-l4"><a class="reference internal" href="settings/index.html">iommi_demo.core.settings</a></li>
-<li class="toctree-l4"><a class="reference internal" href="urls/index.html">iommi_demo.core.urls</a></li>
-<li class="toctree-l4"><a class="reference internal" href="wsgi/index.html">iommi_demo.core.wsgi</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../../autoapi/iommi_demo/core/index.html">iommi_demo.core</a><input aria-label="Toggle navigation of iommi_demo.core" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/iommi_demo/core/asgi/index.html">iommi_demo.core.asgi</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/iommi_demo/core/settings/index.html">iommi_demo.core.settings</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/iommi_demo/core/urls/index.html">iommi_demo.core.urls</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../autoapi/iommi_demo/core/wsgi/index.html">iommi_demo.core.wsgi</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../manage/index.html">iommi_demo.manage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../autoapi/iommi_demo/manage/index.html">iommi_demo.manage</a></li>
 </ul>
 </li>
 </ul>
@@ -255,13 +254,7 @@
           <span>Back to top</span>
         </a>
         <div class="content-icon-container">
-          <div class="view-this-page">
-  <a class="muted-link" href="../../../_sources/autoapi/iommi_demo/core/index.rst.txt" title="View this page">
-    <svg><use href="#svg-eye"></use></svg>
-    <span class="visually-hidden">View this page</span>
-  </a>
-</div>
-<div class="theme-toggle-container theme-toggle-content">
+          <div class="theme-toggle-container theme-toggle-content">
             <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
               <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
               <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
@@ -269,51 +262,37 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
             <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="module-iommi_demo.core">
-<span id="iommi-demo-core"></span><h1>iommi_demo.core<a class="headerlink" href="#module-iommi_demo.core" title="Link to this heading">¶</a></h1>
-<section id="submodules">
-<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading">¶</a></h2>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="asgi/index.html">iommi_demo.core.asgi</a></li>
-<li class="toctree-l1"><a class="reference internal" href="settings/index.html">iommi_demo.core.settings</a></li>
-<li class="toctree-l1"><a class="reference internal" href="urls/index.html">iommi_demo.core.urls</a></li>
-<li class="toctree-l1"><a class="reference internal" href="wsgi/index.html">iommi_demo.core.wsgi</a></li>
-</ul>
-</div>
-</section>
-</section>
+          <h1>Source code for iommi_demo.app.context_processors</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span><span class="w"> </span><span class="nn">django.conf</span><span class="w"> </span><span class="kn">import</span> <span class="n">settings</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">django.http</span><span class="w"> </span><span class="kn">import</span> <span class="n">HttpRequest</span>
 
+
+<div class="viewcode-block" id="google_oauth2_client_id">
+<a class="viewcode-back" href="../../../autoapi/iommi_demo/app/context_processors/index.html#iommi_demo.app.context_processors.google_oauth2_client_id">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">google_oauth2_client_id</span><span class="p">(</span><span class="n">request</span><span class="p">:</span> <span class="n">HttpRequest</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Adds the OAuth app client ID to the context, for the popup on the core template.</span>
+
+<span class="sd">    :param request: The current request.</span>
+<span class="sd">    :return: A dict with the client ID in, for template rendering.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s2">&quot;GOOGLE_OAUTH2_CLIENT_ID&quot;</span><span class="p">:</span> <span class="n">settings</span><span class="o">.</span><span class="n">GOOGLE_OAUTH2_CLIENT_ID</span><span class="p">,</span>
+    <span class="p">}</span></div>
+
+</pre></div>
         </article>
       </div>
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="asgi/index.html">
-              <div class="page-info">
-                <div class="context">
-                  <span>Next</span>
-                </div>
-                <div class="title">iommi_demo.core.asgi</div>
-              </div>
-              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
-            </a>
-          <a class="prev-page" href="../app/views/index.html">
-              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
-              <div class="page-info">
-                <div class="context">
-                  <span>Previous</span>
-                </div>
-                
-                <div class="title">iommi_demo.app.views</div>
-                
-              </div>
-            </a>
+          
+          
         </div>
         <div class="bottom-of-page">
           <div class="left-details">
@@ -332,27 +311,8 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer">
+    <aside class="toc-drawer no-toc">
       
-      
-      <div class="toc-sticky toc-scroll">
-        <div class="toc-title-container">
-          <span class="toc-title">
-            On this page
-          </span>
-        </div>
-        <div class="toc-tree-container">
-          <div class="toc-tree">
-            <ul>
-<li><a class="reference internal" href="#">iommi_demo.core</a><ul>
-<li><a class="reference internal" href="#submodules">Submodules</a></li>
-</ul>
-</li>
-</ul>
-
-          </div>
-        </div>
-      </div>
       
       
     </aside>
@@ -364,6 +324,43 @@
     <script src="../../../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../../../_static/copybutton.js?v=f281be69"></script>
     <script src="../../../_static/design-tabs.js?v=f930bc37"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs"></script>
+    <script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";import elkLayouts from "https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs";mermaid.registerLayoutLoaders(elkLayouts);mermaid.initialize({startOnLoad:false});</script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+    <script type="module">
+import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";
+const load = async () => {
+    await mermaid.run();
+    const all_mermaids = document.querySelectorAll(".mermaid");
+    const mermaids_to_add_zoom = -1 === -1 ? all_mermaids.length : -1;
+    const mermaids_processed = document.querySelectorAll(".mermaid[data-processed='true']");
+    if(mermaids_to_add_zoom > 0) {
+        var svgs = d3.selectAll(".mermaid svg");
+        if(all_mermaids.length !== mermaids_processed.length) {
+            // try again in a sec, wait for mermaids to load
+            setTimeout(load, 200);
+            return;
+        } else if(svgs.size() !== mermaids_to_add_zoom) {
+            // try again in a sec, wait for mermaids to load
+            setTimeout(load, 200);
+            return;
+        } else {
+            svgs.each(function() {
+                var svg = d3.select(this);
+                svg.html("<g class='wrapper'>" + svg.html() + "</g>");
+                var inner = svg.select("g");
+                var zoom = d3.zoom().on("zoom", function(event) {
+                    inner.attr("transform", event.transform);
+                });
+                svg.call(zoom);
+            });
+        }
+    }
+};
+
+window.addEventListener("load", load);
+</script>
     <script src="../../../_static/js/custom.js?v=956e5d78"></script>
     </body>
 </html>

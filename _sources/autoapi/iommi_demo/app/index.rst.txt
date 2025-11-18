@@ -13,6 +13,7 @@ Submodules
    /autoapi/iommi_demo/app/adapter/index
    /autoapi/iommi_demo/app/admin/index
    /autoapi/iommi_demo/app/apps/index
+   /autoapi/iommi_demo/app/context_processors/index
    /autoapi/iommi_demo/app/iommi_admin/index
    /autoapi/iommi_demo/app/main_menu/index
    /autoapi/iommi_demo/app/management/index

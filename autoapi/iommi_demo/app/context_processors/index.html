@@ -3,10 +3,10 @@
   <head><meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../../../../genindex.html"><link rel="search" title="Search" href="../../../../search.html"><link rel="next" title="iommi_demo.app.views" href="../views/index.html"><link rel="prev" title="iommi_demo.app.rules" href="../rules/index.html">
+<link rel="index" title="Index" href="../../../../genindex.html"><link rel="search" title="Search" href="../../../../search.html"><link rel="next" title="iommi_demo.app.iommi_admin" href="../iommi_admin/index.html"><link rel="prev" title="iommi_demo.app.apps" href="../apps/index.html">
 
     <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
-        <title>iommi_demo.app.tests - iommi-demo v0.1.0</title>
+        <title>iommi_demo.app.context_processors - iommi-demo v0.1.0</title>
       <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/styles/furo.css?v=580074bf" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
@@ -178,7 +178,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
       </label>
     </div>
@@ -204,7 +204,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../adapter/index.html">iommi_demo.app.adapter</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../admin/index.html">iommi_demo.app.admin</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../apps/index.html">iommi_demo.app.apps</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../context_processors/index.html">iommi_demo.app.context_processors</a></li>
+<li class="toctree-l4 current current-page"><a class="current reference internal" href="#">iommi_demo.app.context_processors</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../iommi_admin/index.html">iommi_demo.app.iommi_admin</a></li>
 <li class="toctree-l4 has-children"><a class="reference internal" href="../main_menu/index.html">iommi_demo.app.main_menu</a><input aria-label="Toggle navigation of iommi_demo.app.main_menu" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
 <li class="toctree-l5"><a class="reference internal" href="../main_menu/owners/index.html">iommi_demo.app.main_menu.owners</a></li>
@@ -220,7 +220,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../models/index.html">iommi_demo.app.models</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../pages/index.html">iommi_demo.app.pages</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../rules/index.html">iommi_demo.app.rules</a></li>
-<li class="toctree-l4 current current-page"><a class="current reference internal" href="#">iommi_demo.app.tests</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../tests/index.html">iommi_demo.app.tests</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../views/index.html">iommi_demo.app.views</a></li>
 </ul>
 </li>
@@ -256,7 +256,7 @@
         </a>
         <div class="content-icon-container">
           <div class="view-this-page">
-  <a class="muted-link" href="../../../../_sources/autoapi/iommi_demo/app/tests/index.rst.txt" title="View this page">
+  <a class="muted-link" href="../../../../_sources/autoapi/iommi_demo/app/context_processors/index.rst.txt" title="View this page">
     <svg><use href="#svg-eye"></use></svg>
     <span class="visually-hidden">View this page</span>
   </a>
@@ -269,13 +269,42 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="module-iommi_demo.app.tests">
-<span id="iommi-demo-app-tests"></span><h1>iommi_demo.app.tests<a class="headerlink" href="#module-iommi_demo.app.tests" title="Link to this heading">¶</a></h1>
+          <section id="module-iommi_demo.app.context_processors">
+<span id="iommi-demo-app-context-processors"></span><h1>iommi_demo.app.context_processors<a class="headerlink" href="#module-iommi_demo.app.context_processors" title="Link to this heading">¶</a></h1>
+<section id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+<div class="table-wrapper autosummary longtable docutils container">
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#iommi_demo.app.context_processors.google_oauth2_client_id" title="iommi_demo.app.context_processors.google_oauth2_client_id"><code class="xref py py-obj docutils literal notranslate"><span class="pre">google_oauth2_client_id</span></code></a>(→ dict[str, str])</p></td>
+<td><p>Adds the OAuth app client ID to the context, for the popup on the core template.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="module-contents">
+<h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="iommi_demo.app.context_processors.google_oauth2_client_id">
+<span class="sig-prename descclassname"><span class="pre">iommi_demo.app.context_processors.</span></span><span class="sig-name descname"><span class="pre">google_oauth2_client_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">django.http.HttpRequest</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></span><a class="reference internal" href="../../../../_modules/iommi_demo/app/context_processors.html#google_oauth2_client_id"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#iommi_demo.app.context_processors.google_oauth2_client_id" title="Link to this definition">¶</a></dt>
+<dd><p>Adds the OAuth app client ID to the context, for the popup on the core template.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>request</strong> – The current request.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A dict with the client ID in, for template rendering.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
 </section>
 
         </article>
@@ -283,23 +312,23 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="../views/index.html">
+          <a class="next-page" href="../iommi_admin/index.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">iommi_demo.app.views</div>
+                <div class="title">iommi_demo.app.iommi_admin</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="../rules/index.html">
+          <a class="prev-page" href="../apps/index.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">iommi_demo.app.rules</div>
+                <div class="title">iommi_demo.app.apps</div>
                 
               </div>
             </a>
@@ -321,8 +350,31 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">iommi_demo.app.context_processors</a><ul>
+<li><a class="reference internal" href="#functions">Functions</a></li>
+<li><a class="reference internal" href="#module-contents">Module Contents</a><ul>
+<li><a class="reference internal" href="#iommi_demo.app.context_processors.google_oauth2_client_id"><code class="docutils literal notranslate"><span class="pre">google_oauth2_client_id()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
