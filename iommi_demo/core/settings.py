@@ -45,6 +45,7 @@ TEMPLATES: list[dict[str, Any]] = [
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
+                "app.context_processors.google_oauth2_client_id",
                 "django.template.context_processors.debug",
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
